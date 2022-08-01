@@ -65,12 +65,12 @@
         </div>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button type="button" class="button-close" data-modal-close>
-              <svg class="icon-close">
-                <use href="./images/icons.svg#icon-close"></use>
-              </svg>
-            </button>
             <form class="form-modal">
+              <button type="button" class="button-close" data-modal-close>
+                <svg class="icon-close">
+                  <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+              </button>
               <h2 class="form-title">
                 Оставьте свои данные, мы вам перезвоним
               </h2>
@@ -112,15 +112,15 @@
                 </li>
               </ul>
               <p class="form-policy">
-                <input
-                  type="checkbox"
-                  name="policy"
-                  id="policy"
-                  class="input-policy"
-                />
-                <span class="icon-checkbox"></span>
                 <label for="policy"
-                  >Соглашаюсь с рассылкой и принимаю
+                  ><input
+                    type="checkbox"
+                    name="policy"
+                    id="policy"
+                    class="input-policy"
+                  />
+                  <span class="icon-checkbox"></span>Соглашаюсь с рассылкой и
+                  принимаю
                   <a href="" class="link-policy">Условия договора</a>
                 </label>
               </p>
